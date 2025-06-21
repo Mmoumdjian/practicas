@@ -1,0 +1,11 @@
+pub lic nterface PilaTDA {
+void InicializarPila () ;
+// siempre que la pila esté inicializada
+void Apilar( in t x);
+// siempre que la pila esté inicializada y no esté vacía
+void Desapilar() ;
+// siempre que la pila esté inicializada
+boolean PilaVacia ();
+// siempre que la pila esté inicializada y no est´e vac´ıa
+int Tope () ;
+}
