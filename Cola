@@ -1,7 +1,0 @@
-public interface ColaTDA {
-void InicializarCola () ; // siempre que la cola esté inicializada
-void Acolar( in t x); // siempre que la cola esté inicializada y no esté vacía
-void Desacolar() ; // siempre que la cola esté inicializada
-boolean ColaVacia (); // siempre que la cola est´e inicializada y no est´e vac´ıa
-int Primero();
-}
