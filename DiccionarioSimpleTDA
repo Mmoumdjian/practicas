@@ -1,0 +1,11 @@
+public interface DiccionarioSimpleTDA {
+  void InicializarDiccionario () ; // siempre que el diccionario esté inicializado
+
+  void Agregar(int clave , int valor);// siempre que el diccionario esté inicializado
+
+  void Eliminar(int clave); // siempre que el diccionario esté inicializado
+
+  int Recuperar(int clave); // siempre que el diccionario esté inicializado y la clave exista en el mismo
+
+  ConjuntoTDA Claves(); // siempre que el diccionario esté inicializado
+}
