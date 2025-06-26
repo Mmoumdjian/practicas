@@ -1,0 +1,13 @@
+public interface DiccionarioMultipleTDA {
+  void InicializarDiccionario () ;
+
+  void Agregar(int clave , int valor); // siempre que el diccionario esté inicializado
+
+  void Eliminar(int clave);// siempre que el diccionario esté inicializado
+
+  void EliminarValor(int clave , int valor); siempre que el diccionario esté inicializado
+
+  ConjuntoTDA Recuperar(int clave); siempre que el diccionario esté inicializado
+
+  ConjuntoTDA Claves();siempre que el diccionario esté inicializado
+}
